@@ -1,2 +1,2 @@
 # LearningWebDev
-Come with me on my journey to try and teach myself web develoupment!
+Come with me on my journey teach myself web development!
