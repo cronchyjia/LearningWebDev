@@ -1,0 +1,97 @@
+body{
+	font-family: "Overpass", sans-serif;
+	line-height: 1.5;
+}
+
+h1{
+	font-family: "Anton", sans-serif;
+	color: aqua;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+h3{
+	font-size: 40px;
+	color: brown;
+}
+
+a{
+	color: inherit;
+}
+
+.banner span{
+	color: crimson;
+}
+
+#specifity-heading{
+	font-size: 45px;
+	color: grey;
+}
+
+.specifity-heading{
+	font-size: 100px;
+	color: black !important;
+}
+
+.inheritance{
+	color: green;
+}
+
+.inherit-heading{
+	color: inherit;
+}
+
+.section-heading{
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.is-monospace{
+	font-family: 'Courier New', monospace, sans-serif;
+}
+
+.is-serif{
+	font-family: Garamond, serif;
+}
+
+.is-blue{
+	color: blue;
+}
+
+.is-purple{
+	color: purple;
+}
+
+.is-green{
+	color: green;
+}
+
+.is-large{
+	font-size: 40px;
+}
+
+.is-small{
+	font-size: 25px;
+}
+
+.section-heading{
+	color: red;
+}
+
+.intro-paragraph{
+	color: blue;
+}
+
+#heading-3{
+	color: blue;
+	text-transform: uppercase;
+}
+
+.menu-item{
+	color: green;
+}
+
+.menu-item.active{
+	color: purple;
+}
