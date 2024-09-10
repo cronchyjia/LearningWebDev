@@ -1,0 +1,121 @@
+/*================================
+Global Styles
+================================*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+main {
+    padding: 45px 25px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+/*================================
+Typography
+================================*/
+
+b,
+strong {
+    font-weight: 700;
+}
+
+i {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: royalblue;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: cornflowerblue;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: dimgrey;
+    margin: 25px 0 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-bottom: 20px;
+}
+
+/*================================
+Navigation
+================================*/
+
+.gn {
+    background:  maroon;
+}
+
+.gn li {
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.gn li a {
+    color: lightcoral;
+}
+
+.gn li a.active {
+    color: white;
+}
+
+/*================================
+Flexbox
+================================*/
+
+
+/*================================
+Colour Values
+================================*/
+/* colour name example */
+
+/* hex example */
+
+/* rgb  example */
+
+/* rgba example */
+
+
+/*================================
+Link Styles
+================================*/
+
+
+/*================================
+CSS Backgrounds
+================================*/
+
+
+
+/*================================
+Footer
+================================*/
+footer {
+    text-align: center;
+    background: black;
+    padding: 20px 15px;
+}
+
+footer p {
+    color: white;
+}
