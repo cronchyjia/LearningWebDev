@@ -1,0 +1,252 @@
+/*------------------------------------------------
+Global Styles
+------------------------------------------------*/
+body {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	background-color: #f7f7f8;
+	line-height: 1.5;
+	letter-spacing: -.66px;
+}
+
+.theme-wrapper {
+	width: 1290px;
+	margin: 0 auto;
+}
+
+.is-flex {
+	display: flex;
+}
+
+.is-flex-half {
+	flex-basis: 50%;
+	max-width: 50%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+.btn {
+	font-size: 18px;
+	font-weight: 500;
+	color: #3a3e41;	
+	padding-bottom: 3px;
+	border-bottom: 1.5px solid #b3b6b9;
+	text-transform: uppercase;
+}
+
+.std-margin-bot {
+	margin-bottom: 350px;
+}
+
+.indented-content-row {
+	margin-left: 333px;
+}
+
+.indented-content-row p {
+	margin-bottom: 45px;
+}
+
+/*------------------------------------------------
+Typography
+------------------------------------------------*/
+.is-libre {
+	font-family: 'Libre Caslon Text', serif;
+}
+
+/*------------------------------------------------
+Header Styles
+------------------------------------------------*/
+.header {
+	padding: 35px 0;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: white;
+	box-shadow: 0px 3px 13px -1px rgba(0,0,0,0.33);
+}
+
+.header .content-wrap{
+	width: 1290px;
+	margin: 0 auto;
+}
+
+.header img {
+	width: 176px;
+}
+
+/*------------------------------------------------
+Global Navigation
+------------------------------------------------*/
+.gn ul {
+	text-align: right;
+}
+
+.gn li {
+	display: inline-block;
+	margin-right: 25px;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.gn a {
+	color: #b3b6b9;
+}
+
+/*------------------------------------------------
+Component: Introductory Text
+------------------------------------------------*/
+.top-row .sml-heading {
+	font-size: 36px;
+	font-weight: 400;
+	color: #b3b6b9;
+	margin-bottom: 15px;
+}
+
+.top-row .lrg-heading {
+	font-weight: 400;
+	font-size: 90px;
+	color: #3a3e41;
+	margin-bottom: 35px;
+	line-height: 1.1;
+}
+
+/*------------------------------------------------
+Banner
+------------------------------------------------*/
+.banner {
+	height: 90vh;
+	align-items: center;
+}
+
+/*------------------------------------------------
+About (My services)
+------------------------------------------------*/
+.about .top-row {
+	margin-bottom: 95px;
+}
+
+.about li {
+	align-items: flex-start;
+	margin-bottom: 100px;
+}
+
+.about h4 {
+	flex-basis: 20%;
+	font-weight: 500;
+}
+
+.about p {
+	flex-basis: 50%;
+	margin: 0 10%;
+}
+
+.about .btn-wrap {
+	flex-basis: 10%;
+	text-align: right;
+}
+
+/*------------------------------------------------
+Portfolio
+------------------------------------------------*/
+.portfolio {
+	margin-bottom: 60px;
+}
+
+.project-grid {
+	column-count: 2 !important;
+	column-gap: 45px;
+}
+
+.project-grid li {
+	margin-bottom: 45px;
+}
+
+/*------------------------------------------------
+Testimonies
+------------------------------------------------*/
+.testimonials .top-row {
+	margin-bottom: 85px;
+}
+
+.testimonials li {
+	margin-bottom: 100px;
+}
+
+.testimonials .img-holder {
+	flex-basis: 8%;
+	max-width: 8%;
+}
+
+.testimonials .author-col {
+	flex-basis: 20%;
+	max-width: 20%;
+}
+
+.testimonials .name {
+	line-height: 1.4;
+	font-weight: 400;
+	font-size: 29px;
+}
+
+.testimonials .title {
+	font-size: 16px;
+	font-weight: 400;
+	color: #b3b6b9;
+	margin-top: 20px;
+}
+
+.testimonials blockquote {
+	flex-basis: 65%;
+	max-width: 65%;
+	margin-left: 7%;
+	font-weight: 400;
+}
+
+/*------------------------------------------------
+Contact
+------------------------------------------------*/
+.contact .email {
+	font-size: 36px;
+	letter-spacing: -1.08px;
+	text-transform: lowercase;
+}
+
+/*------------------------------------------------
+Footer
+------------------------------------------------*/
+.ftr {
+	margin-bottom: 35px;
+}
+
+.ftr .left-col p {
+	letter-spacing:  -.54px;
+	font-size: 18px;
+}
+
+.ftr .left-col a {
+	color: #3a3e41;
+}
+
+.ftr .left-col strong {
+	font-weight: 700;
+}
+
+.socials-list {
+	text-align: right;
+}
+
+.socials-list li {
+	display: inline-block;
+	width: 33px;
+	margin-left: 40px;
+}
